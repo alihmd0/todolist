@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="header">
+        <div class="headrBox">
+            <h1>todo app</h1>
+        </div>
+        <div class="inputBox">
+            <input type="text" placeholder="add todo..." name="" id="todo">
+            <input type="date" name="" id="date">
+            <button id="add-todo">add</button>
+        </div>
+        <div class="buttonBox">
+            <div class="deleteBox">
+                <button id="delete-all">delete all</button>
+            </div>
+            <div class="filterBox">
+                <button>all</button>
+                <button>pending</button>
+                <button>complete</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="alert-message-box"></div>
+
+    <div class="table">
+        <table>
+            <tr>
+                <th>task</th>
+                <th>date</th>
+                <th>status</th>
+                <th>actions</th>
+            </tr>
+
+            <tbody id="tbody"></tbody>
+            
+
+        </table>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
